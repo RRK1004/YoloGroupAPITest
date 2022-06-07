@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.apitest.SevenPeaksApiTest</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-06 05:56:14 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Verify Total_pages in response is always equal to 2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/apitest/SevenPeaksApiTest.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">API test for SevenPeaksSoftware</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Verify Total_pages in response is always equal to 2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1509</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url  &#39;https://gorest.co.in/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">95</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1240</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:56:13.333 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:56:14.040 response time in milliseconds: 637
+1 &lt; 200
+1 &lt; Server: nginx
+1 &lt; Date: Mon, 06 Jun 2022 12:26:13 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept-Encoding
+1 &lt; Vary: Origin
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-Pagination-Total: 4095
+1 &lt; X-Pagination-Pages: 205
+1 &lt; X-Pagination-Page: 1
+1 &lt; X-Pagination-Limit: 20
+1 &lt; X-Links-Previous: 
+1 &lt; X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; ETag: W/&quot;c116bbeb1e4ffcebc0d8eeb5d3b5e1dc&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: 931144bb-aa38-48c4-8211-124b7575d422
+1 &lt; X-Runtime: 0.007589
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Mangalya Sethi Ret.&quot;,&quot;id&quot;:4160,&quot;email&quot;:&quot;mangalya_ret_sethi@muller.biz&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Devangana Adiga&quot;,&quot;id&quot;:4158,&quot;email&quot;:&quot;adiga_devangana@hammes.name&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Kama Abbott CPA&quot;,&quot;id&quot;:4156,&quot;email&quot;:&quot;kama_cpa_abbott@gusikowski-dickens.com&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Dayaamay Patel&quot;,&quot;id&quot;:4155,&quot;email&quot;:&quot;dayaamay_patel@brown-hirthe.co&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Chaturbhuj Bandopadhyay&quot;,&quot;id&quot;:4154,&quot;email&quot;:&quot;bandopadhyay_chaturbhuj@ankunding.net&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Ameyatma Somayaji II&quot;,&quot;id&quot;:4152,&quot;email&quot;:&quot;somayaji_ii_ameyatma@cummings-sipes.io&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Shanti Bharadwaj&quot;,&quot;id&quot;:4151,&quot;email&quot;:&quot;shanti_bharadwaj@durgan.name&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Gov. Jai Gowda&quot;,&quot;id&quot;:4149,&quot;email&quot;:&quot;gov_jai_gowda@howe-mosciski.org&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Dr. Krishna Menon&quot;,&quot;id&quot;:4148,&quot;email&quot;:&quot;dr_menon_krishna@mitchell.io&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Hiranmay Dutta&quot;,&quot;id&quot;:4147,&quot;email&quot;:&quot;dutta_hiranmay@kozey.io&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chitramala Mahajan&quot;,&quot;id&quot;:4146,&quot;email&quot;:&quot;mahajan_chitramala@hyatt-jacobi.com&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Raj Kakkar&quot;,&quot;id&quot;:4145,&quot;email&quot;:&quot;kakkar_raj@witting-beatty.io&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Dharitri Dutta&quot;,&quot;id&quot;:4136,&quot;email&quot;:&quot;dutta_dharitri@yundt.org&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Ranjit Menon&quot;,&quot;id&quot;:4135,&quot;email&quot;:&quot;ranjit_menon@littel.name&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Brahmaanand Rana I&quot;,&quot;id&quot;:4134,&quot;email&quot;:&quot;i_brahmaanand_rana@kozey.io&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Kalpana Pillai&quot;,&quot;id&quot;:4133,&quot;email&quot;:&quot;pillai_kalpana@schinner.info&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Narinder Sharma&quot;,&quot;id&quot;:4132,&quot;email&quot;:&quot;sharma_narinder@beier.info&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Mr. Preity Iyengar&quot;,&quot;id&quot;:4131,&quot;email&quot;:&quot;iyengar_preity_mr@kutch-cruickshank.co&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Anurag Deshpande&quot;,&quot;id&quot;:4130,&quot;email&quot;:&quot;deshpande_anurag@dach.biz&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Dhanalakshmi Mehrotra Jr.&quot;,&quot;id&quot;:4129,&quot;email&quot;:&quot;mehrotra_dhanalakshmi_jr@barrows.io&quot;,&quot;status&quot;:&quot;inactive&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">174</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">17:56:14.217 [print] [
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Mangalya Sethi Ret.&quot;,
+    &quot;id&quot;: 4160,
+    &quot;email&quot;: &quot;mangalya_ret_sethi@muller.biz&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Devangana Adiga&quot;,
+    &quot;id&quot;: 4158,
+    &quot;email&quot;: &quot;adiga_devangana@hammes.name&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Kama Abbott CPA&quot;,
+    &quot;id&quot;: 4156,
+    &quot;email&quot;: &quot;kama_cpa_abbott@gusikowski-dickens.com&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Dayaamay Patel&quot;,
+    &quot;id&quot;: 4155,
+    &quot;email&quot;: &quot;dayaamay_patel@brown-hirthe.co&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Chaturbhuj Bandopadhyay&quot;,
+    &quot;id&quot;: 4154,
+    &quot;email&quot;: &quot;bandopadhyay_chaturbhuj@ankunding.net&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Ameyatma Somayaji II&quot;,
+    &quot;id&quot;: 4152,
+    &quot;email&quot;: &quot;somayaji_ii_ameyatma@cummings-sipes.io&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Shanti Bharadwaj&quot;,
+    &quot;id&quot;: 4151,
+    &quot;email&quot;: &quot;shanti_bharadwaj@durgan.name&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Gov. Jai Gowda&quot;,
+    &quot;id&quot;: 4149,
+    &quot;email&quot;: &quot;gov_jai_gowda@howe-mosciski.org&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Dr. Krishna Menon&quot;,
+    &quot;id&quot;: 4148,
+    &quot;email&quot;: &quot;dr_menon_krishna@mitchell.io&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Hiranmay Dutta&quot;,
+    &quot;id&quot;: 4147,
+    &quot;email&quot;: &quot;dutta_hiranmay@kozey.io&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Chitramala Mahajan&quot;,
+    &quot;id&quot;: 4146,
+    &quot;email&quot;: &quot;mahajan_chitramala@hyatt-jacobi.com&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Raj Kakkar&quot;,
+    &quot;id&quot;: 4145,
+    &quot;email&quot;: &quot;kakkar_raj@witting-beatty.io&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Dharitri Dutta&quot;,
+    &quot;id&quot;: 4136,
+    &quot;email&quot;: &quot;dutta_dharitri@yundt.org&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Ranjit Menon&quot;,
+    &quot;id&quot;: 4135,
+    &quot;email&quot;: &quot;ranjit_menon@littel.name&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Brahmaanand Rana I&quot;,
+    &quot;id&quot;: 4134,
+    &quot;email&quot;: &quot;i_brahmaanand_rana@kozey.io&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Kalpana Pillai&quot;,
+    &quot;id&quot;: 4133,
+    &quot;email&quot;: &quot;pillai_kalpana@schinner.info&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Narinder Sharma&quot;,
+    &quot;id&quot;: 4132,
+    &quot;email&quot;: &quot;sharma_narinder@beier.info&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Mr. Preity Iyengar&quot;,
+    &quot;id&quot;: 4131,
+    &quot;email&quot;: &quot;iyengar_preity_mr@kutch-cruickshank.co&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Anurag Deshpande&quot;,
+    &quot;id&quot;: 4130,
+    &quot;email&quot;: &quot;deshpande_anurag@dach.biz&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;name&quot;: &quot;Dhanalakshmi Mehrotra Jr.&quot;,
+    &quot;id&quot;: 4129,
+    &quot;email&quot;: &quot;mehrotra_dhanalakshmi_jr@barrows.io&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

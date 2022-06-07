@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.apitest.APITest</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-07 11:14:59 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>Verify User is able to create user</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>Verify newly created user using email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:26]"><span>[3:26]</span> <span>Verify User is able to create post</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:33]"><span>[4:33]</span> <span>Verify User is able to create Comments</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/apitest/APITest.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">API test for YoloGroup</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">Verify User is able to create user</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2174</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + &#39;ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">153</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path  &#39;/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request { &quot;name&quot;: &quot;Ranjith3&quot;, &quot;email&quot;: &quot;rkumar0408@gmail.com&quot;, &quot;gender&quot;: &quot;male&quot; , &quot;status&quot;: &quot;active&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">78</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1723</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">11:14:56.883 request:
+1 &gt; POST https://gorest.co.in/public/v2/users
+1 &gt; Authorization: Bearer ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 84
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Ranjith3&quot;,&quot;email&quot;:&quot;rkumar0408@gmail.com&quot;,&quot;status&quot;:&quot;active&quot;}
+
+11:14:57.921 response time in milliseconds: 1028
+1 &lt; 201
+1 &lt; Server: nginx
+1 &lt; Date: Tue, 07 Jun 2022 05:44:57 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 89
+1 &lt; X-RateLimit-Reset: 1
+1 &lt; Location: https://gorest.co.in/public/v2/users/5427
+1 &lt; ETag: W/&quot;a0a825a34975570b37c50cd785533c8e&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: 3277508e-76f8-4574-964a-ace2bbfff808
+1 &lt; X-Runtime: 0.022853
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; Vary: Origin
+{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Ranjith3&quot;,&quot;id&quot;:5427,&quot;email&quot;:&quot;rkumar0408@gmail.com&quot;,&quot;status&quot;:&quot;active&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">195</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">11:14:58.122 [print] {
+  &quot;gender&quot;: &quot;male&quot;,
+  &quot;name&quot;: &quot;Ranjith3&quot;,
+  &quot;id&quot;: 5427,
+  &quot;email&quot;: &quot;rkumar0408@gmail.com&quot;,
+  &quot;status&quot;: &quot;active&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">Verify newly created user using email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>393</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + &#39;ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def query = {email:&#39;rkumar0408@gmail.com&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path  &#39;/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>params query</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">382</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">11:14:58.157 request:
+1 &gt; GET https://gorest.co.in/public/v2/users?email=rkumar0408%40gmail.com
+1 &gt; Authorization: Bearer ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:14:58.513 response time in milliseconds: 355
+1 &lt; 200
+1 &lt; Server: nginx
+1 &lt; Date: Tue, 07 Jun 2022 05:44:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept-Encoding
+1 &lt; Vary: Origin
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 89
+1 &lt; X-RateLimit-Reset: 2
+1 &lt; X-Pagination-Total: 1
+1 &lt; X-Pagination-Pages: 1
+1 &lt; X-Pagination-Page: 1
+1 &lt; X-Pagination-Limit: 20
+1 &lt; X-Links-Previous: 
+1 &lt; X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; X-Links-Next: 
+1 &lt; ETag: W/&quot;d60d979e755424867042b654ece85f15&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: b2cbaec1-d2f3-45e7-9df2-3a22b2fb6c6e
+1 &lt; X-Runtime: 0.031350
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Ranjith3&quot;,&quot;id&quot;:5427,&quot;email&quot;:&quot;rkumar0408@gmail.com&quot;,&quot;status&quot;:&quot;active&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">11:14:58.521 [print] [
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Ranjith3&quot;,
+    &quot;id&quot;: 5427,
+    &quot;email&quot;: &quot;rkumar0408@gmail.com&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def jsonResponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print jsonResponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">11:14:58.527 [print] [
+  {
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;name&quot;: &quot;Ranjith3&quot;,
+    &quot;id&quot;: 5427,
+    &quot;email&quot;: &quot;rkumar0408@gmail.com&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:26]</span>
+                <span class="scenario-name">Verify User is able to create post</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>389</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + &#39;ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path  &#39;/public/v2/posts&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request { &quot;user&quot;: &quot;Ishatestuser&quot;, &quot;user_id&quot;: &quot;4155&quot;, &quot;title&quot;: &quot;Test Assessment &quot; , &quot;body&quot;: &quot;Assingment for Yolo Group&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">384</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">11:14:58.546 request:
+1 &gt; POST https://gorest.co.in/public/v2/posts
+1 &gt; Authorization: Bearer ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 102
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user_id&quot;:&quot;4155&quot;,&quot;title&quot;:&quot;Test Assessment &quot;,&quot;body&quot;:&quot;Assingment for Yolo Group&quot;,&quot;user&quot;:&quot;Ishatestuser&quot;}
+
+11:14:58.923 response time in milliseconds: 375
+1 &lt; 201
+1 &lt; Server: nginx
+1 &lt; Date: Tue, 07 Jun 2022 05:44:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 88
+1 &lt; X-RateLimit-Reset: 2
+1 &lt; Location: https://gorest.co.in/public/v2/posts/1894
+1 &lt; ETag: W/&quot;083215c066ec544fb4ddec8fab4e0c44&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: b60bf995-6b2a-49f1-97da-b16df7e06353
+1 &lt; X-Runtime: 0.034017
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; Vary: Origin
+{&quot;user_id&quot;:4155,&quot;id&quot;:1894,&quot;title&quot;:&quot;Test Assessment &quot;,&quot;body&quot;:&quot;Assingment for Yolo Group&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">11:14:58.931 [print] {
+  &quot;user_id&quot;: 4155,
+  &quot;id&quot;: 1894,
+  &quot;title&quot;: &quot;Test Assessment &quot;,
+  &quot;body&quot;: &quot;Assingment for Yolo Group&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:33]</span>
+                <span class="scenario-name">Verify User is able to create Comments</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>396</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:33]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + &#39;ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given header Authorization = &#39;Bearer &#39; + &#39;ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path  &#39;/public/v2/comments&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request { &quot;post_id&quot;: 2256, &quot;body&quot;: &quot;Updating comments&quot;, &quot;email&quot;: &quot;lavanya_ret_mehrotra@trantow.org&quot; , &quot;name&quot;: &quot;Ranjith&quot; , &quot;status&quot;: &quot;completed&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">391</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.37">11:14:58.961 request:
+1 &gt; POST https://gorest.co.in/public/v2/comments
+1 &gt; Authorization: Bearer ce5ec6bca9454e3d03f36910cb6f4a5f90b418e3740db722378c6c065328b840
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 124
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;post_id&quot;:2256,&quot;name&quot;:&quot;Ranjith&quot;,&quot;body&quot;:&quot;Updating comments&quot;,&quot;email&quot;:&quot;lavanya_ret_mehrotra@trantow.org&quot;,&quot;status&quot;:&quot;completed&quot;}
+
+11:14:59.347 response time in milliseconds: 385
+1 &lt; 422
+1 &lt; Server: nginx
+1 &lt; Date: Tue, 07 Jun 2022 05:44:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 87
+1 &lt; X-RateLimit-Reset: 3
+1 &lt; Cache-Control: no-cache
+1 &lt; X-Request-Id: 80c08597-a534-41f3-9189-15cb95c0e809
+1 &lt; X-Runtime: 0.016698
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; Vary: Origin
+[{&quot;field&quot;:&quot;post&quot;,&quot;message&quot;:&quot;must exist&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref failed">38</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38">11:14:59.350 src/test/java/apitest/APITest.feature:38
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 385, url: https://gorest.co.in/public/v2/comments, response: 
+[{&quot;field&quot;:&quot;post&quot;,&quot;message&quot;:&quot;must exist&quot;}]
+src/test/java/apitest/APITest.feature:38
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref skipped">39</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
